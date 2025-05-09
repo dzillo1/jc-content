@@ -117,7 +117,7 @@
 
 
 input[type=radio]:checked:after {
-    background:url(../../../../media/jc/ratecard/radio-check-blu.svg) no-repeat;
+    background:url(https://www.jennycraig.com/media/jc/ratecard/radio-check-blu.svg) no-repeat;
     left: 0px;
 	top:0;
     width: 1.25rem;
@@ -340,7 +340,7 @@ width:100%;
 	position: absolute;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-	background:url(../../../../media/jc/ratecard/radio-check-blu.svg) no-repeat;
+	background:url(/jc-content/images/radio-check-blu.svg) no-repeat;
     width: 1.25rem;
 	height:1.25rem;
 }
@@ -576,7 +576,7 @@ a.step-link[aria-expanded="true"] .glyphicon-chevron-down:before {
 .hero .choose-bar.selected h2 span:before,
 .hero .choose-prepay.selected h2 span:before {
     content: " ";
-	background: url(../../../../media/jc/ratecard/check-jenny-blue.svg);
+	background: url(/jc-content/images/check-jenny-blue.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: inline-block;
@@ -674,10 +674,7 @@ width:14.184rem;
 }
 
 @media (max-width: 767px) {
-	picture img {
-		width: 200px;
-		margin: auto;
-	}
+
 	#bars-modal picture img {
 		width: auto;
 		margin-bottom: 20px;
@@ -691,19 +688,12 @@ width:14.184rem;
 	}
 
 
-#prevMenu .btn-left, #prevMenu .btn-right{
-	display: none;
-}
-
-
-
-
-
-
-
-
+	#prevMenu .btn-left, #prevMenu .btn-right{
+		display: none;
+	}
 
 }
+
 @media (max-width: 350px) {
 	footer input#emailFooter {
 		width: 100%;
@@ -863,6 +853,7 @@ width:14.184rem;
 
     #prevMenu .modal-dialog {
         width: 37.625rem;
+
     }
 
 	.prepay .pricing .strike {
@@ -1076,3 +1067,4 @@ width:14.184rem;
 		margin-top: -115px;
 	}
 }
+
