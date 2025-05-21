@@ -1,0 +1,560 @@
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+#cart {
+    position: relative;
+}
+
+#cart .badge {
+    background-color: transparent;
+}
+
+#cart .badge span b {
+    background-color: #029ABC;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    left: 15px;
+    position: absolute;
+    top: -10px;
+    color: #fff;
+}
+
+header.default .total-lean-logo img {
+    width: 153px;
+    height: auto;
+}
+
+header.default .logo-links-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0 0;
+    background: #029ABC;
+}
+
+header.default .logo-wrap {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+header.default .header-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header.default .nav-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15px;
+    width: 15px;
+}
+
+header.default .nav-toggle .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #FFFFFF;
+    transition: all 100ms ease-in-out;
+}
+
+header.default .nav-toggle:hover {
+    cursor: pointer;
+}
+
+header.default .x:nth-of-type(1) {
+    transition: all 100ms ease-in-out;
+    transform: rotate(45deg);
+    transform-origin: top left;
+    width: 18px;
+}
+
+header.default .x:nth-of-type(2) {
+    transition: all 100ms ease-in-out;
+    transform-origin: center;
+    width: 0;
+}
+
+header.default .x:nth-of-type(3) {
+    transition: all 100ms ease-in-out;
+    transform: rotate(-45deg);
+    transform-origin: bottom left;
+    width: 18px;
+}
+
+header.default svg.quest-circ {
+    height: 1.5rem;
+    width: auto;
+}
+
+header.default #navPhone .bi-telephone-fill,
+a .bi-cart3 {
+    height: 1.6rem;
+    font-size: 1.5rem;
+    width: auto;
+    color: #FFFFFF;
+}
+
+header.default span.glyphicon.glyphicon-menu-hamburger.menu-trigger-span {
+    background-color: #163950;
+    display: block;
+    height: 3px;
+    margin: 0;
+    padding: 0;
+    transition: background 0 0.2s;
+    width: 18px;
+    top: 0px;
+}
+
+header.default .mobile-menu-trigger {
+    height: auto;
+    position: static;
+    text-align: center;
+    width: 37px;
+}
+
+header.default nav .dropdown-menu.plans li {
+    border-bottom: 1px solid #bfc2c4;
+}
+
+header.default .navbar-collapse .dropdown-menu.plans a {
+    border: 0;
+    padding: 1.5rem 1.5rem 1.5rem 2rem;
+    font-size: 1rem;
+    font-family: Prompt, sans-serif;
+    font-weight: 500;
+}
+
+header.default .header-links #account-menu {
+    padding: 1rem;
+    border-radius: 0;
+    box-shadow: 0 10px 10px 0 rgb(51 51 51 / 65%);
+}
+
+header.default .header-links #account-menu li {
+    margin-bottom: 0.25rem;
+}
+
+header.default .header-links #account-menu a {
+    font-family: Prompt, sans-serif;
+    font-size: 1rem;
+    padding: 0.9rem;
+    display: block;
+    line-height: 1;
+}
+
+header.default .header-links #account-menu a:hover:not(.btn-primary) {
+    color: #16384e;
+    background: #DFEBF0;
+    border-radius: 10px;
+    display: block;
+}
+
+header.default .header-links #account-menu a.btn-primary {
+    line-height: 1;
+    justify-content: center;
+    font-weight: 700;
+    padding: 10px 0;
+    width: auto;
+    font-size: 1.1875rem;
+    text-align: center;
+    border-color: var(--gnc-brand-red);
+    background-color: var(--gnc-brand-red);
+    color: #fff;
+}
+
+header.default #account .account-name {
+    font-size: 0.875rem;
+    display: block;
+    line-height: 1;
+}
+
+header.default #account .account-label {
+    font-size: 1.125rem;
+    line-height: 1;
+    display: block;
+    padding-top: 2px;
+}
+
+header.default .nav-link.dropdown-toggle.show .bi-chevron-right::before {
+    content: "\F282";
+}
+
+header.default .header-links span.account-name-wrapper {
+    display: none;
+}
+
+@media (max-width: 991px) {
+
+    .breadcrumb {
+        margin: 0;
+    }
+
+    header.default .navbar-collapse {
+        -webkit-overflow-scrolling: touch;
+        background-color: #FFFFFF;
+        position: relative;
+        z-index: 9999;
+        border-top: 1px solid #29353a;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        overflow-x: visible;
+        padding-left: 0px;
+        padding-right: 0px;
+        border: 0;
+        margin: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header.default .navbar-collapse a {
+        text-decoration: none;
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 0;
+        color: #16384e;
+        padding: 1rem 1rem;
+    }
+
+    header.default .a-la-carte-nav li.active a {
+        border-top: 1px solid #0881c7;
+        border-bottom: 1px solid #0881c7;
+        background-color: #eff6e4;
+        color: #0881c7;
+    }
+
+    header.default .a-la-carte-nav li.title {
+        text-align: center;
+        font-family: Prompt, sans-serif;
+        font-size: 1.125em;
+        line-height: 1;
+        padding: 10px 0;
+        border-top: 1px solid #eaebeb;
+    }
+
+    header.default span.nav-text {
+        font-size: 16px;
+        font-family: arial, helvetica, sans-serif;
+        font-size: 0.875em;
+        font-weight: 700;
+        color: #29353a;
+        line-height: 1;
+        margin-right: auto;
+        align-items: center;
+    }
+
+    header.default .a-la-carte-nav li.active span.nav-text {
+        color: #0881c7;
+    }
+
+    header.default nav.a-la-carte-nav {
+        position: absolute;
+        z-index: 1050;
+        top: 110px;
+        z-index: 1060;
+        background-color: #fff;
+        width: 100%;
+    }
+
+    header.default nav {
+        width: 100%;
+        padding: 0;
+        margin-top: 0.75rem;
+    }
+
+    header.default .dropdown-toggle::after {
+        display: none;
+    }
+
+    header.default nav .dropdown-menu.plans,
+    header.default nav .dropdown-menu.menu {
+        border: 0;
+        border-radius: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    header.default .navbar .nav-link {
+        display: flex;
+        padding: 16px 24px;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 1.1875rem;
+        color: var(--jenny-colors-dark-blue, #163950);
+    }
+
+    header.default .navbar .nav-link.show {
+        background: #f2f2f2;
+    }
+
+    header.default .nav-item a:active,
+    header.default .nav-item a:focus {
+        color: #0881c7;
+        background: #f2f2f2;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 359px) {
+    a.total-lean-logo {
+        left: calc(50% - 110px);
+    }
+}
+
+@media (min-width: 768px) {
+
+    header.default #account a,
+    header.default #menuHelp a {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        gap: 0.25rem;
+    }
+
+    header.default .header-links a {
+        text-decoration: none;
+    }
+
+    header.default .nav-toggle {
+        height: 18px;
+        width: 18px;
+    }
+
+    header.default .x:nth-of-type(1),
+    header.default .x:nth-of-type(3) {
+        width: 22px;
+    }
+
+    header.default #navPhone span {
+        color: #0D3A91;
+        font-size: 1.2em;
+    }
+
+    header.default #menuHelp span {
+        font-size: 1.2em;
+        padding-top: 5px;
+    }
+
+    header.default .header-links {
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .btn:hover,
+    header.default .header-links #account-menu a.btn-primary:hover {
+        background-color: #B26300;
+        border-color: #B26300;
+    }
+
+    .breadcrumb {
+        margin: 0 0 1.5rem;
+    }
+
+    header.default .total-lean-logo img {
+        width: 271px;
+        height: 217px;
+    }
+
+    header.default {
+        height: 217px;
+    }
+
+    header.default .logo-links-wrap nav {
+        order: 2;
+        padding: 0;
+        margin: 0;
+        flex-grow: 1;
+    }
+
+    header.default .logo-links-wrap nav .nav-link:hover,
+    header.default #menuHelp a:hover {
+        border-top: 4px solid #0881c7;
+    }
+
+    header.default .header-links {
+        order: 3;
+    }
+
+    header.default .dropdown-toggle::after {
+        display: none;
+    }
+
+    header.default .header-links {
+        margin: 0 1rem 0 0;
+        gap: 2rem;
+        position: relative;
+        flex-wrap: nowrap
+    }
+
+    header.default .navbar-expand-lg .navbar-nav .nav-link {
+        color: var(--text-text-primary, #0D3A91);
+        font-size: 1.0625rem;
+        text-decoration: none;
+        font-weight: 700;
+        line-height: 1;
+        padding: 0;
+        margin: 0;
+    }
+
+    header.default hr {
+        border-bottom: 1px solid #0D3A91;
+        width: calc(100vw - 338px);
+        position: absolute;
+        bottom: -1rem;
+        right: 10px;
+    }
+
+    header.default #navPhone span {
+        font-size: 1.0625rem;
+        line-height: 1.2;
+        white-space: nowrap;
+    }
+
+    header.default a .bi-cart3 {
+        color: #0D3A91;
+    }
+
+    #cart .badge span b {
+        background-color: #0D3A91;
+        border: 0;
+    }
+
+    header.default .logo-links-wrap {
+        background: transparent;
+        padding: 0;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1.5rem;
+    }
+
+    header.default .navbar-expand-lg .navbar-nav .dropdown-menu {
+        border-radius: 0;
+        border: 0;
+        box-shadow: 0 10px 10px 0 rgba(51, 51, 51, 0.65);
+        padding: 10px;
+    }
+
+    header.default #menu-shop-plans li,
+    header.default #menu-why-jenny li,
+    header.default #menu-view-menu li {
+        margin-bottom: 6px;
+        border-bottom: 0;
+    }
+
+    header.default #menu-shop-plans li a,
+    header.default #menu-why-jenny li a,
+    header.default #menu-view-menu li a {
+        color: #16384e;
+        font-size: 1.1875rem;
+        padding: 6px 4px 6px 8px;
+        border-radius: 10px;
+    }
+
+    header.default .dropdown-item:hover,
+    header.default .dropdown-item:focus {
+        color: var(--bs-dropdown-link-hover-color);
+        background: #faf7f4;
+    }
+
+    header.default .header-links #account-menu a.btn-default:hover,
+    header.default .header-links #account-menu a.btn-default:focus {
+        background-color: var(--bs-btn-hover-bg);
+        color: #fff;
+    }
+
+    header.default #navPhone a:hover svg.phone-icon,
+    header.default #account a:hover svg.account-login path,
+    header.default #menu-phone a:hover {
+        fill: #00a6ff;
+        color: #00a6ff;
+    }
+
+    header.default .cart a:hover svg path {
+        fill: #565961;
+    }
+
+    header.default #menu-phone a:hover,
+    header.default #navPhone a:hover span.mobile-number {
+        color: #00a6ff;
+    }
+
+    header.default .navbar-expand-lg .navbar-nav {
+        gap: 32px;
+        margin-right: calc(40vw - 380px);
+    }
+
+    header.default li#menu-my-account {
+        display: none;
+    }
+}
+
+@media(min-width:1200px) {
+    header.default .logo-links-wrap {
+        justify-content: space-between;
+    }
+
+    header.default .header-links {
+        gap: 3rem;
+    }
+
+    header.default .navbar-expand-lg .navbar-nav {
+        gap: 25px;
+        margin-right: 0;
+    }
+
+    header.default .header-links span.account-name-wrapper {
+        display: flex;
+        flex-direction: column;
+        color: #0D3A91;
+    }
+
+    header.default .header-links a:hover span.account-name-wrapper {
+        color: #00a6ff;
+    }
+
+    header.default #navPhone span.mobile-number span {
+        font-size: 1.0625rem;
+    }
+
+    header.default #account .account-label {
+        font-size: 1.0625rem;
+        font-weight: 700;
+    }
+
+    header.default #account .account-name {
+        display: block;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    header.default #account a,
+    header.default #navPhone a,
+    header.default #menuHelp a {
+        gap: 0.5rem;
+    }
+}
+
+@media(min-width:1400px) {
+    header.default .navbar-expand-lg .navbar-nav {
+        gap: 32px;
+    }
+}
